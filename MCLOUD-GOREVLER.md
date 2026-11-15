@@ -172,7 +172,7 @@ Her kaydı yukarıdaki tablolara işle, sonra buradan sil. "tema dosyası yok"
 yazan kayıtlar (CI, kurulum, Pages) çoğunlukla mcloudfast'ı ilgilendirmez.
 Spicetify'a özgü olanlar (`hashed class`, `Spicetify bindings`) da öyle.
 
-<!-- mcloud-sync:start since=2026-11-10T12:35:18Z -->
+<!-- mcloud-sync:start since=2026-11-15T11:49:34Z -->
 - 2026-11-06 · [PR #164](https://github.com/mcloudHQ/mcloud/pull/164): Home: every card's text starts level under the artwork, one-line titles (#163) (STATUS.md değişti)
 - 2026-11-06 · [Issue #163](https://github.com/mcloudHQ/mcloud/issues/163): Inconsistent spacing and text alignment on homepage cards
 - 2026-11-06 · [PR #166](https://github.com/mcloudHQ/mcloud/pull/166): Artist and search shelves: the arrows show on hover, as circles of Home's glass (#165) (STATUS.md değişti)
@@ -229,4 +229,12 @@ Spicetify'a özgü olanlar (`hashed class`, `Spicetify bindings`) da öyle.
 - 2026-11-09 · [PR #211](https://github.com/mcloudHQ/mcloud/pull/211): Playing Next: song menu on right-click, History above it, lighter rows (#210)
 - 2026-11-09 · [Issue #210](https://github.com/mcloudHQ/mcloud/issues/210): \[Feature Request\] Context menu for songs and recently played list in embedded queue view
 - 2026-11-09 · [PR #212](https://github.com/mcloudHQ/mcloud/pull/212): Now Playing: larger lyrics under the artwork (#182)
+- 2026-11-15 · [PR #220](https://github.com/mcloudHQ/mcloud/pull/220): Windows: left traffic lights keep their clicks, lights under modals, Apple-like light glow
+- 2026-11-15 · [Issue #214](https://github.com/mcloudHQ/mcloud/issues/214): macos traffic lights
+- 2026-11-15 · [Issue #216](https://github.com/mcloudHQ/mcloud/issues/216): macOS traffic light controls overlap above the settings modal
+- 2026-11-15 · [PR #222](https://github.com/mcloudHQ/mcloud/pull/222): Now Playing: drag to reorder Playing Next, layout on Spicy's page, Canvas in the cover (#182) (STATUS.md değişti)
+- 2026-11-15 · [PR #223](https://github.com/mcloudHQ/mcloud/pull/223): Mix covers: whole descenders (#215), covers in search suggestions (#218) (STATUS.md değişti)
+- 2026-11-15 · [Issue #215](https://github.com/mcloudHQ/mcloud/issues/215): Home: mix cover names lose their descenders (g, p, y) on gradient covers
+- 2026-11-15 · [Issue #218](https://github.com/mcloudHQ/mcloud/issues/218): \[Bug Report\] Apple Music mix and radio covers revert to default Spotify covers in search suggestions
+- 2026-11-15 · [PR #221](https://github.com/mcloudHQ/mcloud/pull/221): Windows verification: docked toolbar, Ctrl+Alt+, on Turkish Q, carousel glass with Spicy (STATUS.md değişti)
 <!-- mcloud-sync:end -->
