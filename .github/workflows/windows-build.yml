@@ -1,0 +1,29 @@
+name: Windows portable build
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install the pinned Rust toolchain
+        run: rustup toolchain install 1.98.0 --profile minimal
+
+      - name: Build Spotifast
+        run: cargo +1.98.0 build --locked --release --no-default-features
+
+      - name: Upload portable executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: spotifast-windows-x64
+          path: target/release/spotifast.exe
+          if-no-files-found: error
+          compression-level: 0
